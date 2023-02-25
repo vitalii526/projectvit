@@ -2,12 +2,12 @@ package homework1;
 
 public class DomZad2 {
     public static void main(String[] args) {
-        boolean isB = beetwin(3, 8);
-        System.out.println(isB);
+        boolean isB = beetwin(1, 8);
+        //System.out.println(isB);
         System.out.println(beetwin(1, 5));
-        isPositiveOrNegative(-1);
-        System.out.println(isNegative(-1));
-        printWordNTimes("mir", 5);
+        isPositiveOrNegative(0);
+        System.out.println(isNegative(0));
+        printWordNTimes("mir", 6);
         visGod(2400);
     }
 
